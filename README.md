@@ -1,11 +1,12 @@
 # Java Learning Repository
-Welcome to my Java learning repository! This project covers essential Java concepts including Core Java, Object-Oriented Programming (OOP), and Data Structures & Algorithms (DSA).
+Welcome to my Java learning repository! This project covers essential Java concepts including Core Java, Object-Oriented Programming (OOP), and Data Structures & Algorithms (DSA), JUnit Testing, JDBC and incoming.......
 
 ## 📦 What’s Inside
 - Core Java fundamentals such as variables, control structures, and basic syntax  
 - Object-Oriented Programming concepts like classes, objects, inheritance, polymorphism, encapsulation, and abstraction  
 - Data Structures including arrays, strings, stacks, array-list, queues, linked lists, trees, binary search trees, hash maps, and hash sets  
-- Algorithms focusing on sorting methods, recursion 
+- Algorithms focusing on sorting methods, recursion.
+- JUnit4, JUnit5(Jupiter) and JDBC(Java Database Connection)
 
 ## 🤔 Why This Repo?
 - Organized for easy learning and practice  
