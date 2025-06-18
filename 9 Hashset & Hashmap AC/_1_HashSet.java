@@ -6,6 +6,7 @@
 // - It allows null values.
 // - It is not synchronized.
 // - It is not thread-safe.
+// - It is used when you want to store unique elements and do not care about the order.
 
 import java.util.HashSet;
 import java.util.Iterator;

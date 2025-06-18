@@ -15,7 +15,7 @@
 // 2️⃣ Default:
 //  →  The access level of a default modifier is only within the package.
 //  →  It cannot be accessed from outside the package.
-//  →  If you do not specify thge access level it will be the default.
+//  →  If you do not specify the access level it will be the default.
 
 // 3️⃣ Protected:
 //  →  The access level of a protected modifier is within the package and outside the package through child class.

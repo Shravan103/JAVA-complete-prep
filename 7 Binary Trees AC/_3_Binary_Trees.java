@@ -31,40 +31,36 @@ class BinaryTree {
 
     // 📍 Count of Nodes
     public int countOfNodes(Node root) {
-       if(root == null) {
-           return 0;
-       }
+        if (root == null) {
+            return 0;
+        }
 
-
-       int leftNodes = countOfNodes(root.left);
-       int rightNodes = countOfNodes(root.right);
-       return leftNodes + rightNodes + 1;
-   }
+        int leftNodes = countOfNodes(root.left);
+        int rightNodes = countOfNodes(root.right);
+        return leftNodes + rightNodes + 1;
+    }
 
     // 📍 Height of the Tree
-   public int height(Node root) {
-       if(root == null) {
-           return 0;
-       }
+    public int height(Node root) {
+        if (root == null) {
+            return 0;
+        }
 
-
-       int leftHeight = height(root.left);
-       int rightHeight = height(root.right);
-       return Math.max(leftHeight, rightHeight) + 1;
-   }
+        int leftHeight = height(root.left);
+        int rightHeight = height(root.right);
+        return Math.max(leftHeight, rightHeight) + 1;
+    }
 
     // 📍 Sum of Nodes values
-   public int sumOfNodes(Node root) {
-       if(root == null) {
-           return 0;
-       }
+    public int sumOfNodes(Node root) {
+        if (root == null) {
+            return 0;
+        }
 
-
-       int leftSum = sumOfNodes(root.left);
-       int rightSum = sumOfNodes(root.right);
-       return leftSum + rightSum + root.data;
-   }
-
+        int leftSum = sumOfNodes(root.left);
+        int rightSum = sumOfNodes(root.right);
+        return leftSum + rightSum + root.data;
+    }
 
 }
 
@@ -90,4 +86,3 @@ public class _3_Binary_Trees {
         System.out.println("Sum of Nodes values: " + sum);
     }
 }
-

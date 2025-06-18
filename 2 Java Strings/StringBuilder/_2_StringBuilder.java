@@ -47,3 +47,15 @@ public class _2_StringBuilder {
 
     }
 }
+// OUTPUT:
+// Original StringBuilder: Hello Bello
+// Length of original StringBuilder: 11
+// Character at index 4 of original StringBuilder: e
+// After append(): Hello Bello World
+// After insert(): Hello, Bello World
+// After delete(): Hello,o World
+// After replace(): Hi,o World
+// After substring, substr = orld
+// Index of 'World': 5
+// Hi,o World
+// Reversed String: olleH

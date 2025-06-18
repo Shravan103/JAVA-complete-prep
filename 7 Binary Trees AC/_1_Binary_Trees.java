@@ -14,7 +14,8 @@ class Node {
 }
 
 class BinaryTree {
-
+    // idx is used to keep track of the current index in the array during tree construction
+    // It is static so that it retains its value across recursive calls
     static int idx = -1;
 
     public Node buildTree(int nodes[]) {
@@ -32,6 +33,8 @@ class BinaryTree {
 public class _1_Binary_Trees {
 
     public static void main(String args[]) {
+        // Example input: Preorder traversal of a binary tree
+        // -1 indicates a null node
         int nodes[] = {1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1};
         BinaryTree tree = new BinaryTree();
 

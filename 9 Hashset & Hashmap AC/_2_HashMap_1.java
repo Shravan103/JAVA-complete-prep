@@ -6,6 +6,7 @@
 // - It allows null keys and null values.
 // - It is not synchronized.
 // - It is not thread-safe.
+// - It is used when you want to store key-value pairs and do not care about the order.
 
 import java.util.HashMap;
 import java.util.Map;
@@ -55,3 +56,20 @@ public class _2_HashMap_1 {
 
     }
 }
+
+// OUTPUT:
+// map: {China=150, US=30, India=120}
+// {China=180, US=30, India=120}
+// key is not present in the map
+// 180
+// null
+// China
+// 180
+// US
+// 30
+// India
+// 120
+// China 180
+// US 30
+// India 120
+// {US=30, India=120}

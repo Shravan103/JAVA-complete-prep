@@ -1,4 +1,4 @@
-// 💡 3. Queue Implementation using Collections Framework:
+// 💡 4. Queue Implementation using Collections Framework:
 
 import java.util.LinkedList;
 import java.util.Queue;

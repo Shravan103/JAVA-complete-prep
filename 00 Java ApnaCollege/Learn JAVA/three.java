@@ -44,7 +44,7 @@ public class three {
         System.out.print("Enter the button number(1/2/3): ");
         int button = sc.nextInt();
         switch(button)
-        {
+        {   
             case 1 :System.out.println("Hello");
                     break;
             
@@ -53,10 +53,10 @@ public class three {
             
             case 3 :System.out.println("Bonjour");
                     break;
-
+            
             default :System.out.println("Invalid button");
-        }
-
+        }   
+        
         sc.close();
     }
 }

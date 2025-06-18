@@ -12,7 +12,7 @@ public class _6_Sorting_Reverse_Searching {
         Collections.sort(numbers);
         System.out.println("Sorted: " + numbers);
 
-        // 📍 Searching:
+        // 📍 Searching: ArrayList must be sorted before binarySearch
         int index = Collections.binarySearch(numbers, 20);
         System.out.println("Index of value 20: " + index);
 

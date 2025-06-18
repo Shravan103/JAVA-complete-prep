@@ -1,11 +1,11 @@
-
+// Arrays -->(has direct functions of)--> sort(), binarySearch(), 
 import java.util.Arrays;
 
 public class _1_arrays_1 {
 
     public static void main(String[] args) {
         // 📍 Types of array initialization
-        // Technique 1️⃣:
+        // Technique 1️⃣: 
         int arr1[] = {1, 2, 3, 4, 5};
         // Technique 2️⃣:
         int arr2[] = new int[]{10, 20, 30, 40, 50, 60, 70};

@@ -7,7 +7,7 @@ public class _2_String {
         System.out.println("Trimmed: '" + str.trim() + "'");
         System.out.println("Lowercase: " + str.toLowerCase());
         System.out.println("Uppercase: " + str.toUpperCase());
-        System.out.println("Substring (5-16): " + str.substring(5, 16));
+        System.out.println("Substring (5-16): " + str.substring(5, 16));// from index 5 to 15 (exclusive of 16)
 
         // ❤️ Comparing Strings
         String a = "Java";
@@ -28,3 +28,15 @@ public class _2_String {
         System.out.println(a1.compareTo(b1));  //-32: a1 < b1
     }
 }
+// OUTPUT:
+// Original: ' Java Programming '
+// Trimmed: 'Java Programming'
+// Lowercase:  java programming
+// Uppercase:  JAVA PROGRAMMING
+// Substring (5-16): Programming
+// true
+// false
+// true
+// false
+// true
+// -32

@@ -32,3 +32,4 @@ public class _2_Optimized_Bubble_Sort {
         System.out.println("SORTED ARRAY: " + Arrays.toString(arr));
     }
 }
+

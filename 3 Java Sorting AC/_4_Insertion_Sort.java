@@ -1,4 +1,4 @@
-// 💡 INSERTION SORT:
+// 💡 INSERTION SORT: 
 // 🕛 Time Complexity:
 // ● Best Case = O(n)
 // ● Worst Case = O(n²)

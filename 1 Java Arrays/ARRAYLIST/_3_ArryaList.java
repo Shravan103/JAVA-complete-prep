@@ -1,5 +1,5 @@
 // 📍 Necessary import for ArrayList:
-
+// ArrayList -->(has functions like)--> Collections.sort(), Collections.reverse(), Collections.binarySearch()
 import java.util.ArrayList;
 import java.util.Arrays;
 

@@ -31,7 +31,7 @@ abstract class Bike{
 }
 class Honda extends Bike{
     @Override
-    void run(){
+    public void run(){
         System.out.println("running safely");
     }
 }

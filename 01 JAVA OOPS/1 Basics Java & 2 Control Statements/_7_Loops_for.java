@@ -10,7 +10,7 @@ public class _7_Loops_for {
 
         System.out.println("\n\n");
 
-        // 👉 Pyramid Examplec 1
+        // 👉 Pyramid Example 1
         for (int i = 1; i <= 5; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -20,7 +20,7 @@ public class _7_Loops_for {
 
         System.out.println("\n");
 
-        // 👉 Pyramid Examplec 2
+        // 👉 Pyramid Example 2
         for (int i = 1; i <= 5; i++) {
             for (int j = 5; j >= i; j--) {
                 System.out.print("*");

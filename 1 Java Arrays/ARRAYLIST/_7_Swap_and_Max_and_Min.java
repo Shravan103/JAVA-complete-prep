@@ -23,3 +23,8 @@ public class _7_Swap_and_Max_and_Min {
         System.out.println("Min: " + Collections.min(nums));
     }
 }
+//OUTPUT:
+// Before Swap: [One, Two, Three]
+// After Swap: [Three, Two, One]
+// Max: 50
+// Min: 10
