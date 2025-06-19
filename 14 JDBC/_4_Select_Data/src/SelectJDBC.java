@@ -1,20 +1,18 @@
 import java.sql.*;
 
-public class JDBCconnect {
+public class SelectJDBC {
     public static void main(String[] args) {
-        // Database URL, username and password
-        String url = "jdbc:mysql://localhost:3306/employee"; // replace with your DB name
-        String user = "root"; // replace with your DB username
-        String password = ""; // replace with your DB password
+        String url = "jdbc:mysql://localhost:3306/companydb";
+        String user = "root"; // your MySQL username
+        String password = ""; // your MySQL password
 
-        // SQL SELECT query
-        String query = "SELECT id, username FROM users"; // replace with your table and columns
+        String query = "SELECT * FROM employees";
 
         try {
-            // Load JDBC driver (for MySQL)
+            // Load JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Create connection
+            // Establish connection
             Connection conn = DriverManager.getConnection(url, user, password);
 
             // Create statement
@@ -23,12 +21,14 @@ public class JDBCconnect {
             // Execute query
             ResultSet rs = stmt.executeQuery(query);
 
-            // Process result set
-            
+            // Process and display result
+            System.out.println("Employee Records:");
             while (rs.next()) {
                 int id = rs.getInt("id");
-                String name = rs.getString("username");
-                System.out.println("ID: " + id + ", Name: " + name);
+                String name = rs.getString("name");
+                String email = rs.getString("email");
+
+                System.out.println("ID: " + id + ", Name: " + name + ", Email: " + email);
             }
 
             // Close connections
