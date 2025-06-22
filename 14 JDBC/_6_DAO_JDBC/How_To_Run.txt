@@ -1,0 +1,6 @@
+RUN IN THE VS CODE TERMINAL:
+1) COMPILATION:
+javac -cp ".;lib\mysql-connector-j-9.3.0.jar" Main.java db\DBConnection.java dao\UserDAO.java dao\UserDAOImpl.java model\User.java
+
+2) RUN:
+java -cp ".;lib\mysql-connector-j-9.3.0.jar" Main 
