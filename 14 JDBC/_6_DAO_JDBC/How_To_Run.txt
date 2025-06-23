@@ -1,6 +1,14 @@
-RUN IN THE VS CODE TERMINAL:
+✅ RUN IN THE VS CODE TERMINAL:
 1) COMPILATION:
 javac -cp ".;lib\mysql-connector-j-9.3.0.jar" Main.java db\DBConnection.java dao\UserDAO.java dao\UserDAOImpl.java model\User.java
 
 2) RUN:
 java -cp ".;lib\mysql-connector-j-9.3.0.jar" Main 
+
+
+✅ High-Level Workflow
+1. Main.java starts the program and calls methods like addUser(), getUserById(), etc.
+2. These methods are defined in UserDAO (interface).
+3. The actual code/logic is inside UserDAOImpl (class that implements the interface).
+4. Database connection is handled by DBConnection.java.
+5. The User.java class holds data like id, name, email

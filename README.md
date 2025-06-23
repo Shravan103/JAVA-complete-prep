@@ -7,7 +7,7 @@ Welcome to my Java learning repository! This project covers essential Java conce
 - Data Structures including arrays, strings, stacks, array-list, queues, linked lists, trees, binary search trees, hash maps, and hash sets  
 - Algorithms focusing on sorting methods, recursion.
 - Java Unit Testing: JUnit 4 and JUnit 5 (Jupiter)
-- JDBC (Java Database Connectivity)
+- JDBC (Java Database Connectivity) + DAO User Management Project
 
 ## 🤔 Why This Repo?
 - Organized for easy learning and practice  
