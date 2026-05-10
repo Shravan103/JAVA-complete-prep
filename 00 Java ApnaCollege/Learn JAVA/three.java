@@ -1,11 +1,11 @@
 //  CONDITIONAL STATEMENTS/IF-ELSE, SWITCH,BREAK/ LECTURE 3
-import java.util.*;
+import java.util.Scanner;
 
 public class three {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // to check if u are adult/underage
+        // // To check if you are adult/underage
         // System.out.print("Enter the age: ");
         // int age = sc.nextInt();
         // if(age>=18)

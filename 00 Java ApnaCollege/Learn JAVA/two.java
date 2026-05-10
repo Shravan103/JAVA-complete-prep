@@ -20,7 +20,7 @@
 //parenthesis() have highest priority
 
 //Input
-import java.util.*;     //important for taking input from user
+import java.util.Scanner;     //important for taking input from user
 //next()--->doesnt accept the space
 //intead use
 //nextLine()
@@ -55,4 +55,12 @@ public class two {
         System.out.println(name);
         sc.close();
     }
+
+// | Method          | Returns   |
+// | --------------- | --------- |
+// | nextLine()      |   String  |
+// | nextInt()       |   int     |
+// | nextDouble()    |   double  |
+// | nextBoolean()   |   boolean |
+
 }
