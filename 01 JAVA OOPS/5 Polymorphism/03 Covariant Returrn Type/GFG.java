@@ -65,9 +65,14 @@ public class GFG {
         // Again calling method fun() over this object
         // inside main() method
         derived.fun();
+
+
+        Base obj = new Derived();
+        obj.fun();
     }
 }
 
 // Output: 
 // Base fun()
+// Derived fun()
 // Derived fun()

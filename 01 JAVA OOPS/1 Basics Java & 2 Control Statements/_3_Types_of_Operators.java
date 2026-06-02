@@ -19,10 +19,10 @@
         System.out.println("Unary Operators:");
         System.out.println("++a: " + (++a));//a=11
         System.out.println("--a: " + (--a));//a=10
-        System.out.println("a++: " + (a++));//a=11
-        System.out.println("a after a++: " + a); 
-        System.out.println("a--: " + (a--));//a=10
-        System.out.println("a after a--: " + a);
+        System.out.println("a++: " + (a++));//a=10
+        System.out.println("a after a++: " + a); //a=11
+        System.out.println("a--: " + (a--));//a=11
+        System.out.println("a after a--: " + a);//a=10
 
         // Arithmetic Operators
         int x = 20, y = 10;

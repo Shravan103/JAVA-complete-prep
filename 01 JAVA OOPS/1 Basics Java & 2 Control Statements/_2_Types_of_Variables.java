@@ -1,7 +1,7 @@
 // 📍 3 types of variables:
 // a. Local variables: Its scope is inside a method.
 // b. Instance variables: Each object of a class has its own copy of Instance variable, so changing value of Instance variable by one 
-//                        object is not dependet on any other object(It remains the same as previous).
+//                        object is not dependent on any other object(It remains the same as previous).
 // c. Static Variables: A single variable(copy) is shared among all the objects of a class.
 
 public class _2_Types_of_Variables {

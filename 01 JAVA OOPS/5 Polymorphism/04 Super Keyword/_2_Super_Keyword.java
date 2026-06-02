@@ -19,6 +19,7 @@ class Dog extends Animal {
   }
   void work() {
     super.eat();
+    eat();
     bark();
   }
 }

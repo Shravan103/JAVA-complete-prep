@@ -6,7 +6,7 @@
 // If you make any variable as final, you cannot change the value of final variable (it will be constant).
 // A final variable that has no value is called a blank final variable or uninitialized final variable.
 // It can be initialized in the constructor only.
-// The blank final variable can be static also which will be initialized in the static block only.
+// The blank final variable can be static also which will be initialized in the static block only:
 // Example:
 class Bike9{
     final int speedlimit = 90; // final variable

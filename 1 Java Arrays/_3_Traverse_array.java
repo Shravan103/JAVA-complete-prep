@@ -1,3 +1,4 @@
+// Java program to demonstrate how to traverse an array:
 public class _3_Traverse_array {
     public static void main(String[] args) {
         int[] nums = {10, 20, 30, 40, 50};

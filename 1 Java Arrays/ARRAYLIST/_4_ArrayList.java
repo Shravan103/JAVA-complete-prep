@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 
 public class _4_ArrayList {
@@ -32,3 +31,10 @@ public class _4_ArrayList {
 
     }
 }
+
+// OUTPUT:
+// Size: 2
+// Contains "Laptop"?: true
+// Contains "Phone"?: false
+// Index of "Red": 0
+// true

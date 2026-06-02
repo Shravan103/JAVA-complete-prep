@@ -14,6 +14,7 @@ public class _5_Insert_and_Remove_element {
 
         // Copy arr elements before index and put into newArr
         System.arraycopy(arr, 0, newArr, 0, index);
+        // index = length that will be copied, if 2, 2 elements copied from index 0 (including index 0)
 
         // Insert element
         newArr[index] = element;
@@ -38,3 +39,7 @@ public class _5_Insert_and_Remove_element {
 
     }
 }
+
+// OUTPUT:
+// After Insert at index 2: [10, 20, 25, 30, 40]
+// After Removing index 2: [10, 20, 40, 50]
