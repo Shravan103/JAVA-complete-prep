@@ -6,13 +6,13 @@ public class createDBandTable {
         String dbName = "companydb";
         String dbUrl = rootUrl + dbName;
         String user = "root"; // your MySQL username
-        String password = ""; // your MySQL password
+        String password = "root"; // your MySQL password
 
         try {
             // Load JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            // Step 1: Connect to MySQL (no database yet)
+            // 📦 Step 1: Connect to MySQL (no database yet)
             Connection conn1 = DriverManager.getConnection(rootUrl, user, password);
             Statement stmt1 = conn1.createStatement();
 

@@ -4,7 +4,7 @@ public class SelectJDBC {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/companydb";
         String user = "root"; // your MySQL username
-        String password = ""; // your MySQL password
+        String password = "root"; // your MySQL password
 
         String query = "SELECT * FROM employees";
 

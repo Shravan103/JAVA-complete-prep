@@ -4,7 +4,7 @@ public class InsertJDBC {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/employee"; // Your link/DB_name
         String user = "root"; // Your username
-        String password = ""; // Your password
+        String password = "root"; // Your password
 
         // INSERT and SELECT queries
         String query1 = "INSERT INTO users(username, email) VALUES('Rakesh','Rakesh@gmail.com')";

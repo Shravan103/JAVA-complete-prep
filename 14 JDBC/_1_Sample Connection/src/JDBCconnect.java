@@ -1,11 +1,14 @@
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 public class JDBCconnect {
     public static void main(String[] args) {
         // Database URL, username and password
         String url = "jdbc:mysql://localhost:3306/employee"; // replace with your DB name
         String user = "root"; // replace with your DB username
-        String password = ""; // replace with your DB password
+        String password = "root"; // replace with your DB password
 
         // SQL SELECT query
         String query = "SELECT id, username FROM users"; // replace with your table and columns
@@ -16,7 +19,7 @@ public class JDBCconnect {
 
             // Create connection
             Connection conn = DriverManager.getConnection(url, user, password);
-
+ 
             // Create statement
             Statement stmt = conn.createStatement();
 

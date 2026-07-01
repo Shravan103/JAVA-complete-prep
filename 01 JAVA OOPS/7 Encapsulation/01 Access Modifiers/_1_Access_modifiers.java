@@ -22,7 +22,7 @@
 //  →  If you do not make the child class, it cannot be accessed from outside the package.
 
 // 4️⃣ Public: [LEAST RESTRICTIVE]
-//  →  The access level of apublic modifier is everywhere.
+//  →  The access level of a public modifier is everywhere.
 //  →  It can be accessed from within the class, outside the class, within the package and outside the package.
 
 // 📍 Non-Access Modifiers

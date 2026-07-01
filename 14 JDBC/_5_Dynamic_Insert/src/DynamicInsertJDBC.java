@@ -7,7 +7,7 @@ public class DynamicInsertJDBC {
 
         String url = "jdbc:mysql://localhost:3306/companydb";
         String user = "root";  // Your MySQL username
-        String password = "";  // Your MySQL password
+        String password = "root";  // Your MySQL password
 
         // SQL query with placeholders maeked as (?)
         String query = "INSERT INTO employees (name, email) VALUES (?, ?)";
