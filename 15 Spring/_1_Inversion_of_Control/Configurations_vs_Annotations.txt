@@ -1,0 +1,23 @@
+1) Java Configuration
+You manually tell Spring:
+@Bean
+public Sim sim() {
+
+    return new Jio();
+
+}
+
+You choose:
+which class
+when
+how
+
+2) Annotation Configuration
+You only mark:
+@Component
+public class Jio
+
+Spring automatically decides:
+create object
+store bean
+manage lifecycle
