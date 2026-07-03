@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+xmlns:context="http://www.springframework.org/schema/context"
+
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd
+
+http://www.springframework.org/schema/context
+https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+
+    <bean
+        id="hw"
+        class="com.example.demo.HelloWorld"/>
+
+</beans>
+
+<!-- 
+
+Why do we need
+<context:annotation-config/>
+
+Without it, Spring ignores:
+@PostConstruct and @PreDestroy
+
+With i:
+Spring scans every bean for lifecycle annotations.
+
+Think of it as:
+Spring
+↓
+Look inside every bean
+↓
+Any @PostConstruct?
+↓
+Call it
+↓
+Any @PreDestroy?
+↓
+Remember it for shutdown
+	
+-->
