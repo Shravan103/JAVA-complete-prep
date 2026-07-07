@@ -1,0 +1,22 @@
+1) SessionFactory factory = new Configuration()
+        .configure("hibernate.cfg.xml")
+        .buildSessionFactory();
+
+2) Session session = factory.openSession();
+
+3) Transaction tx = session.beginTransaction();
+
+4) Employee emp = new Employee();
+   emp.setId(1);
+   emp.setName("Shravan");
+
+5) session.save(emp);								//INSERT
+   session.update(employee);						//UPDATE
+   session.delete(employee);						//DELETE
+   Employee emp = session.get(Employee.class,1);	//READ
+
+6) tx.commit();										//PERMANENTLY SAVED
+
+6) session.close();
+
+7) factory.close();
