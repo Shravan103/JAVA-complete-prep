@@ -11,8 +11,10 @@
 // =>  When one object aquires all/some properties of a parent object. It is used to achieve run-time polymorphism.
 // Q5) What is a Polymorphism?
 // =>  One task is performed in different words. Achieved using 1) Method Overloading 2) Method Overriding.
+// =>  The same method name can behave differently depending on the object or parameters.
 // Q6) What is a Abstraction?
 // =>  Hiding internal details and showing functionality. It is achieved using Abstract class and Interface.
+// =>  Abstraction means showing only the essential features while hiding the implementation details.
 // Q7) What is a Encapsulation?
 // =>  Wrapping data together into a single unit called CLASS is called as Encapsulation.
 
